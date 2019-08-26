@@ -49,16 +49,16 @@ namespace WebShoes.API
             // Configurando o serviço de documentação do Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1",
+                c.SwaggerDoc("V1.0",
                     new Info
                     {
-                        Title = "API de Los Pamonhas",
-                        Version = "v1",
+                        Title = "DEMO PADRAO PROJETO",
+                        Version = "v1.0",
                         Description = "Curso c# API REST criada com o ASP.NET Core",
                         Contact = new Contact
                         {
-                            Name = "Los Pamonhas",
-                            Url = "https://github.com/ademilsonalmeida/WebShoes"
+                            Name = "DEMO EBOMFIM",
+                            Url = "https://github.com/EdimilsonBomfim/DEMO-PADRAO-PROJETO"
                         }
                     });
 
