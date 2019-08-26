@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebShoes.Domain\WebShoes.Domain.csproj" />
+    <ProjectReference Include="..\WebShoes.Infrastructure\WebShoes.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebShoes.Repository\WebShoes.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

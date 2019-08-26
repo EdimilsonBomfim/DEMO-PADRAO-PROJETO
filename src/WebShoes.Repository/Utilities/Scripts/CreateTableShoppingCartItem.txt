@@ -1,0 +1,12 @@
+﻿use LosPamonhas
+
+CREATE TABLE ShoppingCartItem ( 
+ Id bigint identity NOT NULL 
+, [Key] uniqueidentifier  
+, CreatedDate datetime  
+, UpdatedDate datetime  
+, ShoppingCartId bigint  
+, ProductId bigint  
+, ProductQuantity int  
+, Active BiT
+, CONSTRAINT PK_ShoppingCartItem_Id PRIMARY KEY(Id) )
