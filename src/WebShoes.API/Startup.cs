@@ -52,7 +52,7 @@ namespace WebShoes.API
                 c.SwaggerDoc("V1.0",
                     new Info
                     {
-                        Title = "DEMO PADRAO PROJETO",
+                        Title = "DEMO PADRAO PROJETO - BackEnd ",
                         Version = "v1.0",
                         Description = "Curso c# API REST criada com o ASP.NET Core",
                         Contact = new Contact
@@ -120,7 +120,7 @@ namespace WebShoes.API
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json",
-                    "LOS PAMONHAS - Ecommerce API - WebShoes");
+                    "DEMO PADRAO PROJETO (BackEnd) - Ecommerce API - WebShoes");
             });
         }
     }
